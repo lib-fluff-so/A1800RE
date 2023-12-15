@@ -10,4 +10,4 @@ A1800 file has 6-byte header. First four bytes are length of the audio. The next
 
 ***How To Run***
 
-Put your own rom_dump into "rom" folder. It must have the "rom_dump.bin" name. Then delete everything from "splitted" and "wavs" and delete "wavs_f" (wavs_f is a folder if filtered wavs). Then run "split.py" to split rom into small .a18 files. Then run convert to convert .a18 files to the WAVs.
+Put your own rom_dump into **"rom"** folder. It must have the **"rom_dump.bin"** name. Then delete everything from **"splitted"** and **"wavs"** and delete **"wavs_f"** (wavs_f is a folder of filtered wavs). Then run **"split.py"** to split rom into small .a18 files. Then run **"convert.py"** to convert .a18 files to the WAVs.
